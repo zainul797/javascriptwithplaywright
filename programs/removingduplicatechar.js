@@ -1,19 +1,22 @@
 let str='aabbccdde'
-
+let str1=''
 for(let i=0;i<str.length;i++)
 {
         let count=0;
 
-for(j=0;j<str.length;j++)
+for(j=0;j<str1.length;j++)
 {
-    if(str[i]==str[j])
+    if(str[i]==str1[j])
     {
-        count++;
+        count=1;
+        break;
     }
+    
 }
-if(count==1)
+if(count==0)
 {
-    console.log(str[i])
-    break;
+    str1=str1+str[i];
 }
+
 }
+        console.log(str1);
