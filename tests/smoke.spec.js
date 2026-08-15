@@ -1,10 +1,13 @@
 import {test, expect} from '@playwright/test';
 import 'dotenv/config';
-test("our first playwright test", async ({page})=>
+import logger from '../utils/logger';
+
+test.only("our first playwright test", async ({page})=>
 {
     await page.goto(process.env.baseURl);
     await expect(page).toHaveTitle("Swag Labs");
     await page.pause();
+    logger.info("my first log for playwright test");
 
     await page.locator("//input[@placeholder='Username']").fill("standard_user");
     await expect(page.locator("//input[@placeholder='Username']")).toHaveValue("standard_user");
@@ -31,7 +34,7 @@ test("our first playwright test", async ({page})=>
 }
 )
 
-test.only('drag and drop', async ({page})=>
+test('drag and drop', async ({page})=>
 {
     await page.goto(process.env.demoqabaseurl);
     await page.pause();
