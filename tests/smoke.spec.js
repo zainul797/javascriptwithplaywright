@@ -100,7 +100,7 @@ test("visual testing", async({page})=>{
 
 //handle alerts 
 
-test("handle alerts and confirm", async({page})=>{
+test("@smoke handle alerts and confirm", async({page})=>{
 
     await page.pause();
     await page.goto("https://the-internet.herokuapp.com/javascript_alerts");
