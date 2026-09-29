@@ -1,9 +1,18 @@
-let i=1;
-while(i<=100)
+// let i=1;
+// while(i<=100)
+// {
+//     if(i%3==0 && i%5==0)
+//     {
+//         console.log(i);
+//     }
+//     i++;
+// }
+// using for loop
+
+for(let i=3;i<=100;i++)
 {
     if(i%3==0 && i%5==0)
     {
         console.log(i);
     }
-    i++;
 }

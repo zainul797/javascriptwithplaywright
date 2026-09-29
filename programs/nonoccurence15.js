@@ -11,7 +11,7 @@ for(j=0;j<str.length;j++)
         count++;
     }
 }
-if(count>1)
+if(count==1)
 {
     console.log(str[i])
     break;

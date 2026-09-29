@@ -1,1 +1,22 @@
 2026-08-15 23:44:49 [INFO]: my first log for playwright test
+2026-08-21 18:51:43 [INFO]: my first log for playwright test
+2026-08-21 19:57:35 [INFO]: we are using Playwright inbuilt locators
+2026-08-21 19:57:35 [INFO]: ---getbyplaceholder---
+2026-08-21 20:09:58 [INFO]: we are using Playwright inbuilt locators
+2026-08-21 20:09:58 [INFO]: ---getbyplaceholder---
+2026-08-21 22:37:29 [INFO]: we are using Playwright inbuilt locators
+2026-08-21 22:37:30 [INFO]: ---getbyplaceholder---
+2026-08-21 22:37:48 [INFO]: ---getByRoLe---
+2026-08-21 23:07:08 [INFO]: we are using Playwright inbuilt locators
+2026-08-21 23:07:08 [INFO]: ---getbyplaceholder---
+2026-08-21 23:07:49 [INFO]: ---getByRoLe---
+2026-08-21 23:07:53 [INFO]: ---getbytestid---
+2026-08-21 23:56:16 [INFO]: we are using Playwright inbuilt locators
+2026-08-21 23:56:16 [INFO]: ---getbyplaceholder---
+2026-08-21 23:56:28 [INFO]: ---getByRoLe---
+2026-08-21 23:56:32 [INFO]: ---getbytestid---
+2026-08-21 23:56:42 [INFO]: ---getbytext---
+2026-09-27 13:05:32 [INFO]: Going to login page
+2026-09-27 13:14:19 [INFO]: Going to login page
+2026-09-27 15:09:11 [INFO]: Going to login page
+2026-09-27 15:09:46 [INFO]: login successful
